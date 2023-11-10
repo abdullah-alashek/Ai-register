@@ -24,6 +24,8 @@
   border-radius: 0.5rem;
   border: 1px solid#363A3D;
   background: var(--sec-background-color);
+  color: #9B9C9E;
+  outline: none;
 }
 .aj-form-input input::placeholder {
   flex: 1 0 0;

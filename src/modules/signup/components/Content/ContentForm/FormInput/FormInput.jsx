@@ -1,10 +1,10 @@
 import './FormInputStyle.css'
 
-const FormInput = ({text}) => {
+const FormInput = ({text, type}) => {
   return (
     <div className='aj-form-input'>
       <p>{text}</p>
-      <input type="text" placeholder={text}/>
+      <input type={type} placeholder={text}/>
     </div>
   )
 }
